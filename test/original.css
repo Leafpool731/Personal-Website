@@ -1,0 +1,744 @@
+/* Universal Code */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    align-items: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+body {
+    min-height: 100vh;
+    margin-top: 145px;
+    margin-bottom: 135px;
+    z-index: 1;
+    cursor: default;
+    min-width: 1504px;
+}
+
+a {
+    color: rgb(179, 4, 4);
+}
+
+/* #wrapper {
+    position: fixed;
+    min-width: 2175px;
+} */
+
+/* Navigation Bar Styling */
+
+header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    background-color: black;
+    padding: 20px 1% 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: auto;
+    min-width: 1450px;
+    z-index: 100;
+    
+    
+}
+
+header .logo {
+    font-weight: bolder;
+    font-size: 1.75em;
+    color: rgb(179, 4, 4);
+    position: relative;
+    left: 200px;
+    text-transform: uppercase;
+}
+
+ header .navbar ul {
+    list-style-type: none;
+
+}
+
+header #nav-div {
+    position: relative;
+    right: 200px;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+
+header .navbar ul li a {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(179, 4, 4);
+    display: block;
+}
+
+header .navbar ul li a:hover {
+
+    background-color: rgba(36, 28, 28, 1);
+    color: wheat;
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: rgb(36, 28, 28);
+    display: none;
+
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+
+}
+
+header .navbar ul li ul li ul {
+    left: 200px;
+    margin-right: 20px;
+    top: -2%;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+    display: initial;
+    z-index: 4;
+}
+
+/* About Me Styling */
+#the-begining a {
+    padding: 0;
+
+}
+
+/* ISTY Landing Page Styling */
+
+#isty-landing-page-style {
+    overflow: hidden;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.isty-wrapper {
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -42px;
+    background-color: black;
+    color: rgb(179, 4, 4);
+    overflow: hidden;
+
+}
+
+
+.isty-header {
+    font-size: 3em;
+    text-align: center;
+    z-index: 3;
+    padding: 40px;
+    background-color: rgba(36, 28, 28, 1);
+    border-top: rgb(179, 4, 4) 3px solid ;
+    border-left: rgb(179, 4, 4) 3px solid ;
+    border-right: rgb(179, 4, 4) 3px solid;
+    max-width: 600px
+   
+}
+
+#isty-c-landing {
+    min-width: 100%;
+}
+
+#isty-c-landing img {
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    top: 10px;
+    z-index: -1;
+}
+
+
+#isty-c-landing figure {
+    max-height: 80vh;
+    border-top: rgb(179, 4, 4) 3px solid;
+    width: 100%;
+
+}
+
+#isty-c-landing figcaption {
+    background-color: rgba(36, 28, 28, .8);
+    padding: 30px;
+    z-index: 1;
+    border: rgb(179, 4, 4) 3px solid;
+    border-radius: 37px;
+    min-width: 300px;
+    width: fit-content;
+    display: block;
+    position: relative;
+    z-index: 1;
+    justify-self: center;
+    top: -50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#isty-c-landing figcaption a {
+    padding: 50px;
+    font-size: 2em;
+}
+
+
+#isty-c-landing figure:hover figcaption{
+   transform: scale(1.2);
+}
+
+
+#isty-c-landing figcaption:hover {
+    background-color: rgba(36, 28, 28, 1);
+}
+
+#isty-c-landing figcaption:hover a{
+    color:rgb(165, 132, 69)
+}
+
+
+
+/*Characters Landing Page */
+
+#character-page {
+    justify-content: space-around;
+    
+}
+
+.character-profiles {
+    min-width: 100%;
+    border-top: rgb(179, 4, 4) 3px solid;
+}
+
+.character-body-styling {
+    background-color: black;
+}
+
+
+.character-profiles img {
+    height: 50vh;
+    margin: 50px 40px;
+    border:rgb(179, 4, 4) 3px solid;
+    border-radius: 45px;
+    
+}
+
+.character-profiles figure {
+    width: 60vh;
+    max-width: 60vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.character-profiles figcaption {
+    background-color: rgba(36, 28, 28, .8);
+    padding: 30px;
+    z-index: 1;
+    border: rgb(179, 4, 4) 3px solid;
+    border-radius: 37px;
+    min-width: 300px;
+    width: fit-content;
+    display: block;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    justify-self: center;
+    top: -20vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.character-profiles figcaption a {
+    font-size: 2em;
+}
+
+.character-profiles figure:hover img {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.character-profiles figure:hover {
+    transform: scale(1.1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.character-profiles figure:hover figcaption{
+   transform: scale(1.2);
+}
+
+.character-profiles figcaption:hover {
+    background-color: rgba(36, 28, 28, 1);
+}
+
+.character-profiles figcaption:hover a {
+    color:rgb(165, 132, 69);
+}
+
+#characters-row-two {
+    border: none;
+}
+
+#character-landing-styling {
+    background-color: black;
+}
+
+#slightly-larger-header {
+    width: 500px;
+    margin-right: 20px;
+}
+
+/* Character Profiles STYLING */
+
+.character-wrapper {
+    position: relative;
+    top: -42px;
+    background-color: black;
+    color: rgb(179, 4, 4);
+
+    } 
+
+.isty-wrapper, .character-wrapper {
+    background-image: 
+    url(/images/potions/potion-one.png), 
+    url(/images/potions/potion-two.png), 
+    url(/images/potions/potion-three.png),
+    url(/images/potions/potion-four.png),
+    url(/images/potions/potion-five.png),
+    url(/images/potions/potion-six.png),
+    url(/images/potions/potion-seven.png),
+    url(/images/potions/potion-eight.png),
+    url(/images/potions/potion-nine.png),
+    url(/images/potions/potion-ten.png),
+    url(/images/potions/potion-eleven.png),
+    url(/images/potions/potion-twelve.png),
+    url(/images/potions/potion-thirteen.png),
+    url(/images/potions/potion-fourteen.png),
+    url(/images/potions/potion-extra-one.png),
+    url(/images/potions/potion-extra-two.png),
+    url(/images/potions/potion-sixteen.png),
+    url(/images/potions/potion-seventeen.png),
+    url(/images/potions/potion-eightteen.png),
+    url(/images/potions/potion-nineteen.png),
+    url(/images/potions/potion-twenty.png),
+    url(/images/potions/potion-twenty-one.png),
+    url(/images/potions/potion-twenty-two.png),
+    url(/images/potions/potion-twenty-three.png),
+    url(/images/potions/potion-twenty-four.png),
+    url(/images/potions/potion-twenty-five.png),
+    url(/images/potions/potion-twenty-six.png),
+    url(/images/potions/potion-twenty-seven.png),
+    url(/images/potions/potion-twenty-eight.png);
+background-position-y: 
+    43px, 5px, 70px, 2px, 102px, 56px, 70px, 55px, 100px, 4px, /* First Ten */
+    50px, 10px, 35px, 1px, 
+    /* extra start */ 25px, 35px, /* extra end */ 
+    43px, 15px, 0px, 65px, 55px,
+    23px, 34px, 80px, 90px, 50px, 30px, 16px ;
+background-position-x:
+    3px, 55px, 150px, 200px, 344px, 352px, 405px, 500px, 563px, 550px, /* First Ten */
+    680px, 760px, 838px, 890px,
+   /* extra start */  1025px, 1405px, /* extra end */ 
+    1504px, 1610px, 1685px, 1789px, 1890px, 
+    1940px, 2015px, 2085px, 2160px, 2180px, 2256px, 2340px, 2420px;
+background-size: 
+    100px, 140px, 70px, 160px, 40px, 90px, 75px, 100px, 42px, 142px, /* First Ten */
+    100px, 155px, 120px, 160px, 
+  /* extra start */ 120px, 110px, /* extra end */ 
+    100px, 150px, 153px, 80px, 100px,
+    130px, 120px, 70px, 60px, 100px, 120px, 130px, 110px;
+background-repeat: 
+    no-repeat;
+}
+
+.div-border-top img {
+    width: 100%;
+}
+
+.profile-style {
+    min-width: 100vh;
+}
+
+.profile-style h2{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.character-header {
+    border-top: rgb(179, 4, 4) 3px solid;
+}
+
+
+.character-body {
+    min-height: 100vh;
+    background-color: black;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-style-description dt,  
+.profile-style-description dd {
+    margin: 10px;
+}
+
+.profile-style-description dl {
+    background-color: rgb(179, 4, 4);
+}
+
+.biography {
+    color: rgb(165, 132, 69);
+    border-right: rgb(179, 4, 4) 3px solid;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px; 
+    border-left: rgb(179, 4, 4) 2px solid;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 30px;
+    background-color: rgba(36, 28, 28, 1);
+    position: relative;
+
+    margin-right: auto;
+    padding: 30px;
+    width: 1100px;
+    min-width: 800px;
+    top: 80px;
+}
+
+.biography h3 {
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.biography p {
+    line-height: 50px;
+    text-indent: 50px;
+}
+
+
+ @media screen and (max-width: 2900px) {
+    .biography {
+        min-height: 1100px;
+        margin-top: 30px;
+        
+    }
+} 
+
+@media screen and (max-width: 1900px) {
+    .biography {
+        margin-right: auto;
+    }
+} 
+
+
+.related-characters {
+   
+    margin-top: 10px;
+    border-top: rgb(179, 4, 4) 3px solid;
+    border-bottom: rgb(179, 4, 4) 3px solid;
+    border-radius: 30px;
+    padding-top: 3px;
+    z-index: 1; 
+    width: 100px;
+    background-color: black;
+    color: rgb(179, 4, 4);
+    max-width: 800px;
+    width: 800px;
+
+    position: relative;
+    left: 60px;
+    
+}
+
+.related-character-images {
+    width: 130px;
+    max-height: 130px;
+    border: black 1px solid;
+    border-radius: 100px;
+    background-color:rgba(36, 28, 28, .8);
+}
+
+.related-character-images:hover {
+    transform: scale(1.1);
+    border: rgb(165, 132, 69) 3px solid;
+    background-color:rgba(36, 28, 28, 1) ;
+}
+
+.related-characters li {
+    list-style-type: none;
+    padding: 30px;
+}
+
+.margin-test {
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 2300px) {
+    
+} .hana-image {
+    margin-left: auto;
+    width: 80vh;
+    min-height: 100%;
+}
+
+@media screen and (min-width: 1900px) {
+    
+} .hana-image {
+    margin-left: 190px;
+    width: 80vh;
+    min-height: 100%;
+}
+
+.hana-image {
+    width: 80vh;
+    margin-left: 190px;
+    border-left: rgb(179, 4, 4) 3px solid;
+    border-right: rgb(179, 4, 4) 2px solid;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 30px;
+
+    position: relative; 
+}
+
+.character-header {
+    position: relative;
+    padding: 5px;
+    font-size: 2em;
+
+}
+
+.float-left {
+    float: left;
+    overflow: auto;
+}
+
+.float-right {
+    float: right;
+}
+
+#elize-content-style {
+    min-width: 100vh;
+}
+
+#elize-bib-size {
+    width: 50%;
+}
+#elize-bib p {
+    margin-left: 0;
+    justify-content: center;
+}
+
+.character-body-styling {
+    min-height: 100vh;
+    background-color: black;
+}
+
+.bottom-button {
+    padding: 15px 0px;
+    background-color: rgba(36, 28, 28, .8);
+    text-align: center;
+    border: rgb(179, 4, 4) 3px solid;
+    border-radius: 45px;
+    margin-top: 50px;
+    padding: 5px;
+    max-width: 500px;
+
+}
+
+.bottom-button:hover {
+    background-color: rgba(36, 28, 28, 1);
+    transform: scale(1.1);
+    color: rgb(165, 132, 69);
+    
+}
+
+/* Centered Flex List and Short Story Landing Styling */
+
+.characters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.characters figure figcaption {
+    text-align: center;
+
+}
+
+/* Short Story Content Styling */
+
+ .story {
+    z-index: 2;
+}
+
+.story p {
+    line-height: 30px;
+    text-indent: 50px;
+    margin-bottom: 10px;
+}
+
+.story h2 {
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+    padding-bottom: 5px;
+    color: rgb(36, 28, 28);
+}
+
+.short-story-border {
+    padding: 5px 0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.short-story-div {
+    margin-bottom: 50px;
+}
+
+.section-heading-border-bottom {
+    border-bottom: rgb(179, 4, 4) 3px solid;
+    position: relative;
+}
+
+.story-read-background {
+    background-color: rgb(197, 167, 110);
+    border: black 5px solid;
+    color: rgb(36, 28, 28);
+    padding: 75px 100px;
+    margin: 0px 400px;
+    border-radius: 45px;
+    
+
+}
+
+.story-bottom-button {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.story-read-background p {
+    line-height: 50px;
+    text-indent: 75px;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+ #larger-header {
+    width: 500px;
+ }
+
+
+
+#water-background {
+    background-image: url(/images/midnight-two.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#darkness-background {
+    background-image: url(/images/spooky-scary.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#minute-background {
+    background-image: url(/images/pool-picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Footer Styling */
+
+footer .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 15px;
+    min-width: 1450px;
+    z-index: 3;
+}
+
+footer p {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(179, 4, 4);
+    position: relative;
+    left: 200px;
+}
+
+
+footer .navbar ul {
+    list-style-type: none;
+
+}
+footer ul {
+    position: relative;
+    right: 200px;
+}
+
+footer .navbar ul li {
+    position: relative;
+    float: left;
+}
+footer .navbar ul li a {
+    font-size: 20px;
+    text-align: center;
+    padding:  10px 20px;
+    display: block;
+}
+
+footer .navbar ul li a:hover {
+    
+    background-color: rgba(36, 28, 28, 1);
+    color: wheat;
+    z-index: 3;
+}
+
+.footer-border nav {
+    border-top: rgb(179, 4, 4) 3px solid;
+}
+
+
+/* Text Styling */
+
+.bold-text {
+    font-weight: bold;
+}
+
+.em-text {
+    font-style: italic;
+}
+

@@ -1,0 +1,52 @@
+.isty-wrapper, .character-wrapper {
+    background-image: 
+    url(/images/potions/potion-one.png), 
+    url(/images/potions/potion-two.png), 
+    url(/images/potions/potion-three.png),
+    url(/images/potions/potion-four.png),
+    url(/images/potions/potion-five.png),
+    url(/images/potions/potion-six.png),
+    url(/images/potions/potion-seven.png),
+    url(/images/potions/potion-eight.png),
+    url(/images/potions/potion-nine.png),
+    url(/images/potions/potion-ten.png),
+    url(/images/potions/potion-eleven.png),
+    url(/images/potions/potion-twelve.png),
+    url(/images/potions/potion-thirteen.png),
+    url(/images/potions/potion-fourteen.png),
+    url(/images/potions/potion-extra-one.png),
+    url(/images/potions/potion-extra-two.png),
+    url(/images/potions/potion-sixteen.png),
+    url(/images/potions/potion-seventeen.png),
+    url(/images/potions/potion-eightteen.png),
+    url(/images/potions/potion-nineteen.png),
+    url(/images/potions/potion-twenty.png),
+    url(/images/potions/potion-twenty-one.png),
+    url(/images/potions/potion-twenty-two.png),
+    url(/images/potions/potion-twenty-three.png),
+    url(/images/potions/potion-twenty-four.png),
+    url(/images/potions/potion-twenty-five.png),
+    url(/images/potions/potion-twenty-six.png),
+    url(/images/potions/potion-twenty-seven.png),
+    url(/images/potions/potion-twenty-eight.png);
+background-position-y: 
+    43px, 5px, 70px, 2px, 102px, 56px, 70px, 55px, 100px, 4px, /* First Ten */
+    50px, 10px, 35px, 1px, 
+    /* extra start */ 25px, 35px, /* extra end */ 
+    43px, 15px, 0px, 65px, 55px,
+    23px, 34px, 80px, 90px, 50px, 30px, 16px ;
+background-position-x:
+    3px, 55px, 150px, 200px, 344px, 352px, 405px, 500px, 563px, 550px, /* First Ten */
+    680px, 760px, 838px, 890px,
+   /* extra start */  1025px, 1405px, /* extra end */ 
+    1504px, 1610px, 1685px, 1789px, 1890px, 
+    1940px, 2015px, 2085px, 2160px, 2180px, 2256px, 2340px, 2420px;
+background-size: 
+    100px, 140px, 70px, 160px, 40px, 90px, 75px, 100px, 42px, 142px, /* First Ten */
+    100px, 155px, 120px, 160px, 
+  /* extra start */ 120px, 110px, /* extra end */ 
+    100px, 150px, 153px, 80px, 100px,
+    130px, 120px, 70px, 60px, 100px, 120px, 130px, 110px;
+background-repeat: 
+    no-repeat;
+}  
